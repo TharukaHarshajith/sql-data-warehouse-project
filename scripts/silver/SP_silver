@@ -6,7 +6,7 @@ and enrichment before storing warehouse-ready data for downstream analytics.
 */
 
 -- Creating stored procedure for silver layer
--- EXEC silver.load_silver
+--EXEC silver.load_silver
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
@@ -79,7 +79,7 @@ BEGIN
 				) AS flag
 			FROM bronze.crm_cust_info
 		)t
-		WHERE flag = 1;
+		WHERE flag = 1 AND cst_id IS NOT NULL;
 
 		SET @end_time = GETDATE();
 
@@ -389,4 +389,3 @@ BEGIN
 
 END
 
-EXEC silver.load_silver;
