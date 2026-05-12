@@ -198,6 +198,19 @@ This file is available for Gold-layer validation and can be extended to verify d
 6. Run the Silver load procedure:
    - `EXEC silver.load_silver;`
 7. Validate results using the Silver quality checks in `tests/quality_checks_silver.sql`.
+8. Connect Power BI Desktop to the SQL Server data warehouse and build the final sales report.
+   - Configure the desktop and mobile report layouts.
+   - Images of the completed reports are stored in `docs/`:
+     - `docs/sales_report.png` for the desktop layout
+     - `docs/sales_report_mobile.jpeg` for the mobile layout
+
+## Power BI Reporting
+
+Use Power BI Desktop to connect to the `DataWarehouse` SQL Server database, load the Gold-layer views, and create sales visuals for both desktop and mobile consumption. The finalized report layouts are shown below.
+
+![Sales Report Desktop](docs/sales_report.png)
+
+![Sales Report Mobile](docs/sales_report_mobile.jpeg)
 
 ## Notes
 
