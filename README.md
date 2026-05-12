@@ -208,9 +208,16 @@ This file is available for Gold-layer validation and can be extended to verify d
 
 Use Power BI Desktop to connect to the `DataWarehouse` SQL Server database, load the Gold-layer views, and create sales visuals for both desktop and mobile consumption. The finalized report layouts are shown below.
 
-![Sales Report Desktop](docs/sales_report.png)
-
-<img src="docs/sales_report_mobile.jpeg" alt="Sales Report Mobile" width="360" />
+<div style="display:flex; flex-wrap:wrap; gap:16px; align-items:flex-start;">
+  <div style="flex:1 1 45%; min-width:260px;">
+    <p><strong>Desktop layout</strong></p>
+    <img src="docs/sales_report.png" alt="Sales Report Desktop" style="width:100%; height:auto; border:1px solid #ddd; padding:4px; background:#fff;" />
+  </div>
+  <div style="flex:1 1 45%; min-width:260px;">
+    <p><strong>Mobile layout</strong></p>
+    <img src="docs/sales_report_mobile.jpeg" alt="Sales Report Mobile" style="width:100%; height:auto; border:1px solid #ddd; padding:4px; background:#fff;" />
+  </div>
+</div>
 
 ## Notes
 
