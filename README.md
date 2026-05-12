@@ -210,7 +210,7 @@ Use Power BI Desktop to connect to the `DataWarehouse` SQL Server database, load
 
 ![Sales Report Desktop](docs/sales_report.png)
 
-![Sales Report Mobile](docs/sales_report_mobile.jpeg)
+<img src="docs/sales_report_mobile.jpeg" alt="Sales Report Mobile" width="360" />
 
 ## Notes
 
